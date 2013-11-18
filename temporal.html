@@ -1,0 +1,104 @@
+
+<!doctype html>
+<html>
+  <head>
+    <title>Planning Land Time Series</title>
+    <meta name="keywords" content="Land planning permission">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <script src="js/bootstrap.min.js"></script>    
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+        font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <!--navbar -->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="#">Beijing Public Service Analysis</a>
+          <div class="navbar-content">
+            <ul class="nav ">
+              <li>
+                <a href="index.html">Home</a> 
+              </li>
+              <li class="active">
+                <a href="temporal.html">Temporal</a> 
+              </li>
+              <li>
+                <a href="bus.html">Bus</a> 
+              </li>
+              <li>
+                <a href="about.html">About</a> 
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--container -->
+    <div class="container">
+    <div class="span12">
+
+        <!-- jsHeader -->
+        <script src='http://echarts.baidu.com/doc/example/www/js/echarts.js'></script>
+
+
+        <h3>Daily time series</h3>
+        <!-- divChart -->
+        <div id='eLineDay' style='height:400px;border:1px solid #ccc;padding:10px;'></div>
+
+        <!-- jsChart -->
+        <script src="js/day.js"></script>
+
+        <hr>
+
+        <h3>Monthly aggregated time series</h3>
+        <!-- divChart -->
+        <div id='eLineWeek' style='height:300px; border:1px solid #ccc;padding:10px;'></div>
+        <!-- jsChart -->
+        <script src='js/week.js'></script>
+
+        <hr>
+
+        <h3>Quarter aggregated time series</h3>
+        <!-- divChart -->
+        <div id='eLineQuarter' style='height:300px; border:1px solid #ccc;padding:10px;'></div>
+        <!-- jsChart -->
+        <script src='js/quarter.js'></script>
+
+        <hr>
+
+        <h3>Year aggregated time series</h3>
+        <!-- divChart -->
+        <div id='eLineYear' style='height:300px; border:1px solid #ccc;padding:10px;'></div>
+        <!-- jsChart -->
+        <script src='js/year.js'></script>
+
+    </div>
+
+<hr>
+
+    <!--footer -->
+    <footer>
+      <center>
+        <p>© Jianghao Wang 2013, All Right Reserved</p>
+        <ul class="buttons inline">
+          <li>
+            <iframe src="http://ghbtns.com/github-btn.html?user=Jianghao&amp;repo=bjPublic&amp;type=watch&amp;count=true&amp;size=large"
+            allowtransparency="true" frameborder="0" scrolling="0" width="200" height="30"></iframe>
+          </li>
+        </ul>
+      </center>
+    </footer>
+
+  </body>
+
+</html>

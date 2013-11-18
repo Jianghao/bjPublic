@@ -1,0 +1,88 @@
+<!doctype html>
+<html xmlns:wb=“http://open.weibo.com/wb”>
+  <head>
+    <title>Planning Land Hot Spot</title>
+    <meta name="keywords" content="bus beijing">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <script src="js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+        font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+      }
+      #heatmapArea {
+        position:relative;
+        float:left;
+        width:88%;
+        height:800px;
+        border:1px dashed black;
+      }
+      #configArea {
+        position:relative;
+        float:left;
+        width:10%;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <!--navbar -->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="#">Beijing Public Service Analysis</a>
+          <div class="navbar-content">
+            <ul class="nav ">
+              <li>
+                <a href="index.html">Home</a> 
+              </li>
+              <li>
+                <a href="temporal.html">Temporal</a> 
+              </li>
+              <li class="active">
+                <a href="bus.html">Bus</a> 
+              </li>
+              <li>
+                <a href="about.html">About</a> 
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--container -->
+    <div class="container">
+      <div class="span12">
+        <h1>Beijing 1500 bus lines</h1>
+        <p>从网络地图上自动获取北京1500条公交线路，并将其空间化，得到去覆盖的公交线路图，直接反应北京公共交通通达情况。颜色表示公交线路的长度。<a href="https://a.tiles.mapbox.com/v3/jianghaowang.gah76ojh/page.html?secure=1#9/40.09908414736847/116.49078369140625" class="btn btn-success btn-lg"> 全屏查看</a></p>
+        <iframe width='100%' height='800px' frameBorder='0' src='https://a.tiles.mapbox.com/v3/jianghaowang.gah76ojh.html?secure=1#9/40.09908414736847/116.49078369140625'></iframe>
+        <hr/>
+        
+      </div>
+    </div>
+
+
+
+
+    <!--footer -->
+    <footer>
+      <center>
+        <p>© Jianghao Wang 2013, All Right Reserved</p>
+        <ul class="buttons inline">
+          <li>
+            <iframe src="http://ghbtns.com/github-btn.html?user=Jianghao&amp;repo=bjPublic&amp;type=watch&amp;count=true&amp;size=large"
+            allowtransparency="true" frameborder="0" scrolling="0" width="200" height="30"></iframe>
+          </li>
+        </ul>
+      </center>
+    </footer>
+
+  </body>
+
+</html>
